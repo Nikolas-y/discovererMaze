@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\maps">
+      <UniqueIdentifier>{6667f8ce-c49a-4145-8388-5bebe9a9d3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\discoverer">
+      <UniqueIdentifier>{26a88acc-f214-4e1c-83a8-a4d3dce9dc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\WorldTime">
+      <UniqueIdentifier>{53a8974f-f2df-4919-afaf-b319d84464cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="simulator_life.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Eller%27s_Algorithm.cpp">
+      <Filter>Исходные файлы\maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Исходные файлы\maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Empty.cpp">
+      <Filter>Исходные файлы\maps</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldTime.cpp">
+      <Filter>Исходные файлы\WorldTime</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Random.h">
+      <Filter>Исходные файлы\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Eller%27s_Algorithm.h">
+      <Filter>Исходные файлы\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Empty.h">
+      <Filter>Исходные файлы\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="discoverer.h">
+      <Filter>Исходные файлы\discoverer</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotDiscoverer.h">
+      <Filter>Исходные файлы\discoverer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
